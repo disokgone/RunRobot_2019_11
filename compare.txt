@@ -1,0 +1,8 @@
+Delphi:
+  decode_one_value_from_stacktop  + 852:
+	if ((pN->initNdx > 0) && (((pN->vType & 31) == 10) || ((pN->vType & 31) == 13))) { // 字串常數且有初值
+		p = get_fixval_as_str(pN->initNdx);
+		xSay("#911 initNdx = %d, flags = %d, p = %x (%s)", pN->initNdx, pN->flags, p, p);
+		xmemmove(&pN->i_Val, &p, 4);
+		//      xfree(val);  @@bug ! p was not free @@
+	}

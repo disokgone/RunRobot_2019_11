@@ -1,0 +1,52 @@
+void fill_in_arg(c*var_name, TNameStru*pLocVs)
+│↓  找到與 var_name 同名稱新借的區域變數
+│↓  把 pLocVs 轉型後存值到同名稱新借的區域變數
+└→ exit.
+
+
+
+void parse_arguments(TFuncProc *pPF, TNameStru* pLocs);
+│
+├→檢查是否 <有參數或參數無效>
+│↙有參數          ↓無參數或參數無效
+│           parse_arguments_for_nil()
+│                  ↓
+│           取後面 Tokens 運算出每個參數值
+│           存到 { sys_argv[], sys_argn }
+│                  └→ exit.
+│
+│↓保存舊的 now_fun_loc_count 存入 loc_stack[] (bug ! 未取出!)
+│↓若 <pCallerText> → 有資料 → 轉成逆波蘭運算式
+│       └→ exit.(無資料)      ╱    
+│                             ↙    
+│        recursive_parse_args(pCallerText)
+│           解析後面參數放在 pFunNow[]
+│                     ↓
+│       逐一取出 pFunNow[] 運算,求出參數值,
+│       呼叫 fill_in_arg(pARs->name, pLocs)
+│
+└→     now_fun_loc_count = pPF->nArgs  → exit.
+
+
+
+void parse_arguments_for_nil(void)
+│↓保存舊的 now_fun_loc_count 存入 loc_stack[] (bug ! 未取出!)
+│↓recursive_parse_args(pCallerText)  (可能 bug ! 未檢查 pCallerText 是否有效)
+│    ↓解析後面參數放在 pFunNow[]
+│↓now_fun_loc_count = pFunNow->nArgs
+│↓逐一取出 pFunNow[] 運算,求出參數值,
+│  存到 { sys_argv[], sys_argn }
+└→ exit.
+
+
+
+void recursive_parse_args(UINT* pTok) 
+│  解析 pTok[] 裡的參數, 存到 { pFunNow[], nFunCnt }
+│
+│  結果: pFunNow->nArgs 是解出的參數個數
+│        pFunNow->pArg[] 放每個參數 (Token 形式)
+└→ exit.
+
+
+
+│

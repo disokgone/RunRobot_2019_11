@@ -1,0 +1,67 @@
+const
+  c: char = 'A';
+  x: int = 1;
+  c_2p: string = '2p = ';
+endconst
+
+var
+  y: sint8 = 252;
+  p, q: sint16;
+  r, s: int;
+  pi: double = 3.1415926;
+endvar
+
+function  start(xx, yy: int): string;	// bug : 傳回值型態沒掃瞄好 !!
+var
+  s1: string;
+endvar;
+  r = x;
+  y := x + y;
+  if y = 12 then begin
+                       if y > 12 then begin
+					   x = 0;
+					   y = y + 3;
+                                      end;
+		       y = y + 1;
+                 end
+            else begin
+                       r = x + 1;    y = y + 2;
+		 end;
+  repeat
+    y = y + 1;
+    print_it('now x = ' + x);
+    if x > y then begin
+	r = r + 3;
+	s = s - 4;
+	if x = y then break;
+    end;
+  until y = 21;
+
+  for r = 1 to 10 do begin
+	y = y + r;
+  end;
+
+  s = y * x;
+  p = pi * 2;
+  q = pi * x * y;
+  cal(1+2);
+  s1 = 'x = ' + x;
+  return(s1);
+  print_it(s1);
+  s1 = c_2p + p;
+  print_it(s1);
+  cal(1+2, s1 + x + cal(s), cal(cal(cal(r))));
+  return('Bye !');
+endfunc;	// bug : 這裏若放 endproc 會掛得很難看 !!
+
+procedure print_it(s: string);
+  printf(s);
+endproc;
+
+procedure cal(v: int);
+  printf(' 目前計算 cal = %d', v);
+endproc;
+
+procedure not_use(v: int);
+  printf(' bye !');
+endproc;

@@ -1,0 +1,519 @@
+// this is a remarked line !
+<source filename> test.scp
+<total lines> 67
+<var count> 15
+<Blob file name> test1234.blb
+[Global Variables]
+	<source program> test.scp
+	<line number> 8
+	<name> y
+	<var Index> 3
+	<flag> $c0
+	<initNdx> 4
+	<vType> $45
+		// Type: sint8
+	<iVal> 0
+	<dVal> 0.000000
+	<init Value> 252
+	<source program> test.scp
+	<line number> 9
+	<name> p
+	<var Index> 4
+	<flag> $40
+	<initNdx> 0
+	<vType> $46
+		// Type: sint16
+	<iVal> 0
+	<dVal> 0.000000
+	<source program> test.scp
+	<line number> 9
+	<name> q
+	<var Index> 5
+	<flag> $40
+	<initNdx> 0
+	<vType> $46
+		// Type: sint16
+	<iVal> 0
+	<dVal> 0.000000
+	<source program> test.scp
+	<line number> 10
+	<name> r
+	<var Index> 6
+	<flag> $40
+	<initNdx> 0
+	<vType> $47
+		// Type: int
+	<iVal> 0
+	<dVal> 0.000000
+	<source program> test.scp
+	<line number> 10
+	<name> s
+	<var Index> 7
+	<flag> $40
+	<initNdx> 0
+	<vType> $47
+		// Type: int
+	<iVal> 0
+	<dVal> 0.000000
+	<source program> test.scp
+	<line number> 11
+	<name> pi
+	<var Index> 8
+	<flag> $c0
+	<initNdx> 5
+	<vType> $4c
+		// Type: double
+	<iVal> 0
+	<dVal> 0.000000
+	<init Value> 3.1415925026
+	<source program> test.scp
+	<line number> 14
+	<name> xx
+	<var Index> 9
+	<flag> $40
+	<initNdx> 0
+	<vType> $47
+		// Type: int
+	<iVal> 0
+	<dVal> 0.000000
+	<source program> test.scp
+	<line number> 14
+	<name> yy
+	<var Index> 10
+	<flag> $40
+	<initNdx> 0
+	<vType> $47
+		// Type: int
+	<iVal> 0
+	<dVal> 0.000000
+	<source program> test.scp
+	<line number> 16
+	<name> s1
+	<var Index> 11
+	<flag> $40
+	<initNdx> 0
+	<vType> $4a
+		// Type: string
+	<iVal> 0
+	<dVal> 0.000000
+	<source program> test.scp
+	<line number> 57
+	<name> s
+	<var Index> 12
+	<flag> $40
+	<initNdx> 0
+	<vType> $4a
+		// Type: string
+	<iVal> 0
+	<dVal> 0.000000
+	<source program> test.scp
+	<line number> 61
+	<name> v
+	<var Index> 13
+	<flag> $40
+	<initNdx> 0
+	<vType> $47
+		// Type: int
+	<iVal> 0
+	<dVal> 0.000000
+	<source program> test.scp
+	<line number> 65
+	<name> v
+	<var Index> 14
+	<flag> $40
+	<initNdx> 0
+	<vType> $47
+		// Type: int
+	<iVal> 0
+	<dVal> 0.000000
+[Global Variables End]
+[Local Variables]
+[Local Variables End]
+[Constants]
+	<source program> test.scp
+	<line number> 2
+	<name> c
+	<var Index> 0
+	<flag> $80
+	<initNdx> 1
+	<vType> $1
+		// Type: char
+	<iVal> 0
+	<dVal> 0.000000
+	<init Value> A
+	<source program> test.scp
+	<line number> 3
+	<name> x
+	<var Index> 1
+	<flag> $80
+	<initNdx> 2
+	<vType> $7
+		// Type: int
+	<iVal> 0
+	<dVal> 0.000000
+	<init Value> 1
+	<source program> test.scp
+	<line number> 4
+	<name> c_2p
+	<var Index> 2
+	<flag> $80
+	<initNdx> 3
+	<vType> $a
+		// Type: string
+	<iVal> 0
+	<dVal> 0.000000
+	<init Value> 2p = 
+[Constants End]
+[Fixed Values]
+	<source program> test.scp
+	<cType> $f // string
+	<init Value> A
+	<pName> $89c0005
+	<iVal> $2de4
+	<flag> $80
+	<source program> test.scp
+	<cType> $6 // dword
+	<init Value> 1
+	<pName> $0
+	<iVal> $1
+	<flag> $80
+	<source program> test.scp
+	<cType> $f // string
+	<init Value> 2p = 
+	<pName> $89c0007
+	<iVal> $0
+	<flag> $80
+	<source program> test.scp
+	<cType> $6 // dword
+	<init Value> 252
+	<pName> $0
+	<iVal> $fc
+	<flag> $80
+	<source program> test.scp
+	<cType> $b // double
+	<init Value> 3.1415925026
+	<pName> $0
+	<iVal> $40490fda
+	<flag> $80
+	<source program> test.scp
+	<cType> $b // double
+	<init Value> 12.0000000000
+	<pName> $0
+	<iVal> $41400000
+	<flag> $80
+	<source program> test.scp
+	<cType> $b // double
+	<init Value> 0.0000000000
+	<pName> $0
+	<iVal> $0
+	<flag> $80
+	<source program> test.scp
+	<cType> $b // double
+	<init Value> 3.0000000000
+	<pName> $0
+	<iVal> $40400000
+	<flag> $80
+	<source program> test.scp
+	<cType> $b // double
+	<init Value> 1.0000000000
+	<pName> $0
+	<iVal> $3f800000
+	<flag> $80
+	<source program> test.scp
+	<cType> $b // double
+	<init Value> 2.0000000000
+	<pName> $0
+	<iVal> $40000000
+	<flag> $80
+	<source program> test.scp
+	<cType> $b // double
+	<init Value> 4.0000000000
+	<pName> $0
+	<iVal> $40800000
+	<flag> $80
+	<source program> test.scp
+	<cType> $b // double
+	<init Value> 21.0000000000
+	<pName> $0
+	<iVal> $41a80000
+	<flag> $80
+	<source program> test.scp
+	<cType> $b // double
+	<init Value> 10.0000000000
+	<pName> $0
+	<iVal> $41200000
+	<flag> $80
+	<source program> test.scp
+	<cType> $0 // 無定義
+	<init Value> 0
+	<pName> $0
+	<iVal> $0
+	<flag> $0
+[Fixed Values End]
+[Functions]
+	<source program> test.scp
+	<name> start
+	<fncType> $1
+	<argument count> $2
+	<begin line no> 14
+	<final line no> 55
+	<return type> $1
+		<return type> char
+	<Fn index> 0
+	<real prog addr> $2278008
+	<Token len> $188
+  // $02278008 - 9E 03 00 00-91 06 00 00-92 14 02 00-91 01 00 00 
+  // $02278018 - 9F 12 00 00-9E 05 00 00-91 03 00 00-92 14 02 00 
+  // $02278028 - 91 01 00 00-92 18 0C 00-91 03 00 00-9F 13 00 00 
+  // $02278038 - 9E 06 00 00-96 04 04 01-91 03 00 00-92 14 02 00 
+  // $02278048 - 95 06 00 00-96 05 00 01-97 04 00 00-9F 14 00 00 
+  // $02278058 - 9E 02 00 00-96 06 00 00-97 02 00 00-9F 1B 00 00 
+  // $02278068 - 9E 01 00 00-97 05 00 00-9F 1E 00 00-9E 08 00 00 
+  // $02278078 - 96 09 00 00-91 06 00 00-92 14 02 00-95 09 00 00 
+  // $02278088 - 96 0B 00 00-95 0D 00 00-96 07 00 00-97 03 00 00 
+  // $02278098 - 9F 28 00 00-9E 05 00 00-91 07 00 00-92 14 02 00 
+  // $022780A8 - 91 03 00 00-92 08 0E 00-91 01 00 00-9F 2C 00 00 
+  // $022780B8 - 9E 05 00 00-91 04 00 00-92 14 02 00-91 08 00 00 
+  // $022780C8 - 92 08 0E 00-95 0A 00 00-9F 2D 00 00-9E 07 00 00 
+  // $022780D8 - 91 05 00 00-92 14 02 00-91 08 00 00-92 08 0E 00 
+  // $022780E8 - 91 01 00 00-92 08 0E 00-91 03 00 00-9F 2E 00 00 
+  // $022780F8 - 9E 01 00 00-90 01 00 08-9F 2F 00 00-9E 05 00 00 
+  // $02278108 - 91 0B 00 00-92 14 02 00-94 03 00 00-92 18 0C 00 
+  // $02278118 - 91 01 00 00-9F 30 00 00-9E 04 00 00-98 01 00 00 
+  // $02278128 - 92 03 0F 00-91 0B 00 00-92 04 0F 00-9F 31 00 00 
+  // $02278138 - 9E 01 00 00-90 02 00 08-9F 32 00 00-9E 05 00 00 
+  // $02278148 - 91 0B 00 00-92 14 02 00-91 02 00 00-92 18 0C 00 
+  // $02278158 - 91 04 00 00-9F 33 00 00-9E 01 00 00-90 03 00 08 
+  // $02278168 - 9F 34 00 00-9E 01 00 00-90 04 00 08-9F 35 00 00 
+  // $02278178 - 9E 04 00 00-98 01 00 00-92 03 0F 00-94 04 00 00 
+  // $02278188 - 92 04 0F 00-9F 36 00 00-
+	 //  r = x 
+	 //   y = x + y 
+	 //  程序小區塊(4) 
+	 //  程序小區塊(2); 
+	 //  程序小區塊(5) 
+	 //  程序小區塊(3) 
+	 //   s = y * x 
+	 //   p = pi * -0.000000 
+	 //   q = pi * x * y 
+	// 呼叫切出的 Undone Evals 程式區塊內容 index= 1
+	 //    
+	 // 'x = ' + x 
+	 //   return ( s1 ) 
+	// 呼叫切出的 Undone Evals 程式區塊內容 index= 2
+	 //    
+	 //   s1 = c_2p + p 
+	// 呼叫切出的 Undone Evals 程式區塊內容 index= 3
+	 //    
+	// 呼叫切出的 Undone Evals 程式區塊內容 index= 4
+	 //    
+	 // 'Bye !' ) 
+[Functions End]
+[Procedures]
+	<source program> test.scp
+	<name> print_it
+	<fncType> $0
+	<argument count> $1
+	<begin line no> 57
+	<final line no> 59
+	<return type> $0 		// No type (due to No Return Value)
+	<Fn index> 1
+	<real prog addr> $2278190
+	<Token len> $c
+  // $02278190 - 9E 01 00 00-90 05 00 08-9F 3A 00 00-
+	// 呼叫切出的 Undone Evals 程式區塊內容 index= 5
+	 //   
+	<source program> test.scp
+	<name> cal
+	<fncType> $0
+	<argument count> $1
+	<begin line no> 61
+	<final line no> 63
+	<return type> $0 		// No type (due to No Return Value)
+	<Fn index> 2
+	<real prog addr> $227819c
+	<Token len> $c
+  // $0227819C - 9E 01 00 00-90 06 00 08-9F 3E 00 00-
+	// 呼叫切出的 Undone Evals 程式區塊內容 index= 6
+	 //   
+	<source program> test.scp
+	<name> not_use
+	<fncType> $0
+	<argument count> $1
+	<begin line no> 65
+	<final line no> 67
+	<return type> $0 		// No type (due to No Return Value)
+	<Fn index> 3
+	<real prog addr> $22781a8
+	<Token len> $c
+  // $022781A8 - 9E 01 00 00-90 07 00 08-9F 42 00 00-
+	// 呼叫切出的 Undone Evals 程式區塊內容 index= 7
+	 //   
+[Procedures End]
+[Undone Functions or Procedures]
+	<source program> test.scp
+	<line number> 32
+	<name> print_it
+	<Solved> 1
+	<source program> test.scp
+	<line number> 47
+	<name> cal
+	<Solved> 2
+	<source program> test.scp
+	<line number> 58
+	<name> printf
+	<Solved> -1
+[Undone Functions or Procedures End]
+[Undone Evals] // 切出的 Undone Evals 程式區塊
+	<source program> test.scp
+	<line number> 32
+	<in proc/func name> start
+	<Undone Eval index> 0
+	<Token counts> 24
+  // $02239668 - 90 FF 7F 00-92 03 0F 00-94 02 00 00-92 18 0C 00 
+  // $02239678 - 91 01 00 00-00 00 00 00-
+	 // 'now x = ' + x 
+	<source program> test.scp
+	<line number> 47
+	<in proc/func name> start
+	<Undone Eval index> 1
+	<Token counts> 24
+  // $02239680 - 90 FE 7F 00-92 03 0F 00-95 09 00 00-92 18 0C 00 
+  // $02239690 - 95 0A 00 00-00 00 00 00-
+	 // cal ( -0.000000 + -0.000000 
+	<source program> test.scp
+	<line number> 50
+	<in proc/func name> start
+	<Undone Eval index> 2
+	<Token counts> 16
+  // $02239698 - 90 FF 7F 00-92 03 0F 00-91 0B 00 00-00 00 00 00 
+	 // print_it ( s1 
+	<source program> test.scp
+	<line number> 52
+	<in proc/func name> start
+	<Undone Eval index> 3
+	<Token counts> 16
+  // $022396A8 - 90 FF 7F 00-92 03 0F 00-91 0B 00 00-00 00 00 00 
+	 // print_it ( s1 
+	<source program> test.scp
+	<line number> 53
+	<in proc/func name> start
+	<Undone Eval index> 4
+	<Token counts> 104
+  // $022396B8 - 90 FE 7F 00-92 03 0F 00-95 09 00 00-92 18 0C 00 
+  // $022396C8 - 95 0A 00 00-92 11 01 00-91 0B 00 00-92 18 0C 00 
+  // $022396D8 - 91 01 00 00-92 18 0C 00-90 FE 7F 00-92 03 0F 00 
+  // $022396E8 - 91 07 00 00-92 04 0F 00-92 11 01 00-90 FE 7F 00 
+  // $022396F8 - 92 03 0F 00-90 FE 7F 00-92 03 0F 00-90 FE 7F 00 
+  // $02239708 - 92 03 0F 00-91 06 00 00-92 04 0F 00-92 04 0F 00 
+  // $02239718 - 92 04 0F 00-00 00 00 00-
+	 // cal ( -0.000000 + -0.000000 , s1 + x + cal ( s ) , cal ( cal ( cal ( r ) ) ) 
+	<source program> test.scp
+	<line number> 58
+	<in proc/func name> print_it
+	<Undone Eval index> 5
+	<Token counts> 16
+  // $02239720 - 90 FD 7F 00-92 03 0F 00-91 07 00 00-00 00 00 00 
+	 // printf ( s 
+	<source program> test.scp
+	<line number> 62
+	<in proc/func name> cal
+	<Undone Eval index> 6
+	<Token counts> 24
+  // $02239730 - 90 FD 7F 00-92 03 0F 00-94 05 00 00-92 11 01 00 
+  // $02239740 - 91 0D 00 00-00 00 00 00-
+	 // ' 目前計算 cal = %d' , v 
+	<source program> test.scp
+	<line number> 66
+	<in proc/func name> not_use
+	<Undone Eval index> 7
+	<Token counts> 16
+  // $02239748 - 90 FD 7F 00-92 03 0F 00-94 06 00 00-00 00 00 00 
+	 // ' bye !' 
+[Undone Evals End]
+[Token Blocks] // 程序小區塊
+	<Token Block index> 0
+	<Token address> $8bb1708
+	<Token counts> 72
+  // $08BB1708 - 9E 01 00 00-96 00 00 02-9F 15 00 00-9E 03 00 00 
+  // $08BB1718 - 91 01 00 00-92 14 02 00-95 07 00 00-9F 16 00 00 
+  // $08BB1728 - 9E 05 00 00-91 03 00 00-92 14 02 00-91 03 00 00 
+  // $08BB1738 - 92 18 0C 00-95 08 00 00-9F 17 00 00-9E 01 00 00 
+  // $08BB1748 - 96 01 01 02-9F 18 00 00-
+	 //  begin 
+	 //   x = -0.000000 
+	 //   y = y + -0.000000 
+	 //   end 
+	<Token Block index> 1
+	<Token address> $8bb1848
+	<Token counts> 112
+  // $08BB1848 - 9E 01 00 00-96 00 00 01-9F 21 00 00-9E 05 00 00 
+  // $08BB1858 - 91 06 00 00-92 14 02 00-91 06 00 00-92 18 0C 00 
+  // $08BB1868 - 95 08 00 00-9F 22 00 00-9E 05 00 00-91 07 00 00 
+  // $08BB1878 - 92 14 02 00-91 07 00 00-92 19 0C 00-95 0B 00 00 
+  // $08BB1888 - 9F 23 00 00-9E 06 00 00-96 04 04 01-91 01 00 00 
+  // $08BB1898 - 92 14 02 00-91 03 00 00-96 05 00 01-96 10 00 00 
+  // $08BB18A8 - 9F 24 00 00-9E 01 00 00-96 01 01 01-9F 25 00 00 
+	 //  begin 
+	 //   r = r + -0.000000 
+	 //   s = s - -0.000000 
+	 //   if x = y then break 
+	 //   end 
+	<Token Block index> 2
+	<Token address> $8bb19b0
+	<Token counts> 80
+  // $08BB19B0 - 9E 01 00 00-96 00 00 01-9F 1B 00 00-9E 05 00 00 
+  // $08BB19C0 - 91 06 00 00-92 14 02 00-91 01 00 00-92 18 0C 00 
+  // $08BB19D0 - 95 09 00 00-9F 1C 00 00-9E 05 00 00-91 03 00 00 
+  // $08BB19E0 - 92 14 02 00-91 03 00 00-92 18 0C 00-95 0A 00 00 
+  // $08BB19F0 - 9F 1C 00 00-9E 01 00 00-96 01 01 01-9F 1D 00 00 
+	 //  begin 
+	 //   r = x + -0.000000 
+	 //   y = y + -0.000000 
+	 //   end 
+	<Token Block index> 3
+	<Token address> $8bb1af8
+	<Token counts> 52
+  // $08BB1AF8 - 9E 01 00 00-96 00 00 01-9F 28 00 00-9E 05 00 00 
+  // $08BB1B08 - 91 03 00 00-92 14 02 00-91 03 00 00-92 18 0C 00 
+  // $08BB1B18 - 91 06 00 00-9F 29 00 00-9E 01 00 00-96 01 01 01 
+  // $08BB1B28 - 9F 2A 00 00-
+	 //  begin 
+	 //   y = y + r 
+	 //   end 
+	<Token Block index> 4
+	<Token address> $8bb1f10
+	<Token counts> 84
+  // $08BB1F10 - 9E 01 00 00-96 00 00 01-9F 14 00 00-9E 06 00 00 
+  // $08BB1F20 - 96 04 04 01-91 03 00 00-92 12 0A 00-95 06 00 00 
+  // $08BB1F30 - 96 05 00 01-97 00 00 00-9F 15 00 00-9E 05 00 00 
+  // $08BB1F40 - 91 03 00 00-92 14 02 00-91 03 00 00-92 18 0C 00 
+  // $08BB1F50 - 95 09 00 00-9F 19 00 00-9E 01 00 00-96 01 01 01 
+  // $08BB1F60 - 9F 1A 00 00-
+	 //  begin 
+	 //  程序小區塊(0) 
+	 //   y = y + -0.000000 
+	 //   end 
+	<Token Block index> 5
+	<Token address> $8bb1dac
+	<Token counts> 108
+  // $08BB1DAC - 9E 01 00 00-96 02 00 01-9F 1E 00 00-9E 05 00 00 
+  // $08BB1DBC - 91 03 00 00-92 14 02 00-91 03 00 00-92 18 0C 00 
+  // $08BB1DCC - 95 09 00 00-9F 1F 00 00-9E 01 00 00-90 00 00 08 
+  // $08BB1DDC - 9F 20 00 00-9E 06 00 00-96 04 04 01-91 01 00 00 
+  // $08BB1DEC - 92 12 0A 00-91 03 00 00-96 05 00 01-97 01 00 00 
+  // $08BB1DFC - 9F 21 00 00-9E 04 00 00-96 03 00 01-91 03 00 00 
+  // $08BB1E0C - 92 14 02 00-95 0C 00 00-9F 26 00 00-
+	 //  repeat 
+	 //   y = y + -0.000000 
+	// 呼叫切出的 Undone Evals 程式區塊內容 index= 0
+	 //    
+	 //  程序小區塊(1) 
+	 //   until y = -0.000000 
+[Token Blocks End]
+[Temporary Strings] n = 136
+[Temporary Strings]
+	<Temp String Count> 7
+	<Total String Space> 54
+[Temporary Strings End] 1
+<ALL END>

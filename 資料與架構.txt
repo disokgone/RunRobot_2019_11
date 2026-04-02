@@ -1,0 +1,59 @@
+.MIA 纗戳戈琜篶
+
+
+
+磅︽戳戈籔琜篶
+
+now_var, all_var, 
+--> TProgDataA->{cnt_glob + cnt_const} ==> <now_var_count>		#214, load_prog_info
+--> TProgDataA->{all_func, cnt_func} => <my_fun, func_cnt>		#215, load_prog_info
+--> TProgDataA->{all_proc, cnt_proc} => <my_proc, proc_cnt>	#217, load_prog_info
+
+>> load_prog_info()
+#214	now_var_count = TProgDataA-> cnt_glob + TProgDataA->cnt_const;
+
+
+
+
+
+
+    all_prog, now_prog: PMyPrograms;    // 眖 1 衡癬
+    all_glob, now_glob: PMyVar;         // 办跑计
+    all_local, now_local: PMyLocal;     // 跋办跑计
+    all_const, now_const: PMyConst;     // 盽计
+    all_fixval, now_fixval: PMyFixVal;  // ㏕﹚
+    all_func, now_func: PMyFunc;        // ㄧ计
+    all_proc, now_proc: PMyProc;        // 祘
+    all_args, now_args: PArgs;			// 把计
+    all_undn, now_undn: PMyUndone;      // ゼЧΘぇㄧ计/祘
+    all_excblk, now_excblk: PMyExcBlk;  // ち祘Α跋遏
+    pTokBuf, pTokNow: PByte;            // 锣传秈ㄓ Token Byte Data
+    cnt_prog: Integer;    // all_prog[]   竒ㄏノ计秖 (ㄓ方﹍祘Α)
+    cnt_glob: Integer;    // all_glob[]   竒ㄏノ计秖 (办跑计)
+    cnt_local: Integer;   // all_local[]  竒ㄏノ计秖 (跋办跑计)
+    cnt_const: Integer;   // all_const[]  竒ㄏノ计秖 (盽计)
+    cnt_fixval: Integer;  // all_fixval[] 竒ㄏノ计秖 (㏕﹚)
+    cnt_undn: Integer;    // all_undn[]   竒ㄏノ计秖 (ゼЧΘぇㄧ计/祘)
+    cnt_excblk: Integer;  // all_excblk[] 竒ㄏノ计秖 (ち祘Α跋遏)
+    TokRemain: Integer;   // ﹟斗锣传 Token Byte Data 戈 byte 计
+    err_id: Integer;      // 矪瞶筁祘祇ネ岿粇 (絏 0 = No Error)
+
+struct
+	TArrayStru		// 皚 (跑计┪盽计) 琜篶
+	TCaller			// ㊣
+	TConstStru		// 盽计琜篶
+	TFuncStru		// ㄧ计/祘
+	TLocalStru		// 跋办跑计
+	TMyPrograms		// ㄓ方﹍祘Α
+	TMyConst		// 盽计
+	TMyFixVal		// ㏕﹚
+	TMyExcBlk		// ち Undone Evals 祘Α跋遏
+	TMyFunc			// ㄧ计
+	TMyLocal		// 跋办跑计
+	TMyProc			// 祘
+	TMyUndone		//
+	TMyVar			// 办跑计
+	TNameStru		// 跑计┪
+	TVarNames		// 倒 PNameStru 跑计┪盽计嘿逼ノ
+	ProgDataA		// *.MIA
+	
